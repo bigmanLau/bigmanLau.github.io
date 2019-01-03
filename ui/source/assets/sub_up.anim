@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sub_up",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.16666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "comps": {
+      "cc.Widget": {
+        "bottom": [
+          {
+            "frame": 0,
+            "value": 44
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": 150
+          },
+          {
+            "frame": 0.11666666666666667,
+            "value": 163
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.16666666666666666,
+      "func": "onFinishAnim",
+      "params": [
+        false
+      ]
+    }
+  ]
+}

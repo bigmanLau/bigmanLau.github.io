@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shop_intro",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "paths": {
+      "mask": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bott": {
+        "comps": {
+          "cc.Widget": {
+            "bottom": [
+              {
+                "frame": 0.16666666666666666,
+                "value": -215.5
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": 160
+              }
+            ]
+          }
+        }
+      },
+      "shop_menu": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0.5,
+              "value": 1
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0.8
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1
+            }
+          ]
+        },
+        "comps": {
+          "cc.Widget": {
+            "top": [
+              {
+                "frame": 0.4166666666666667,
+                "value": -591
+              },
+              {
+                "frame": 0.5833333333333334,
+                "value": 150
+              }
+            ]
+          }
+        }
+      },
+      "shoper": {
+        "props": {
+          "x": [
+            {
+              "frame": 0.4166666666666667,
+              "value": -714
+            },
+            {
+              "frame": 0.7,
+              "value": -101
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "onFinishShow",
+      "params": [
+        false
+      ]
+    }
+  ]
+}
