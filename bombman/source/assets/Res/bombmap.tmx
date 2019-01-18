@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map" tilewidth="32" tileheight="32">
+  <image source="map.png" width="128" height="64"/>
+ </tileset>
+ <layer name="background" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPCgxAALUAWo=
+  </data>
+ </layer>
+ <layer name="tools" width="19" height="19">
+  <properties>
+   <property name="exit" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A0wIpDnINCc1ko1D9UABsan31AXDEKhgoAAFn0AB8=
+  </data>
+ </layer>
+ <layer name="brick" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAtYCIDU9NuarmJCU0/tdxFyFxC7sGnnxh3kmMWMeFEjFmE3IvLLHz24TObUDwy4VBLbDgSaxahNE/IT+S4Cx9NSronJczJdRelZQQ9yhB6AgALKQEF
+  </data>
+ </layer>
+ <layer name="main" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYKYipgZANosa9Ki7Rt016q5Rd9HbXdTCAIfAAZk=
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+  <object x="224" y="544" width="32" height="32">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object x="192" y="288" width="32" height="32">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object x="416" y="288" width="32" height="32">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object x="544" y="352" width="32" height="32">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object x="96" y="352" width="32" height="32">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
